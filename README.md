@@ -1,7 +1,7 @@
 ## Create and bulk manage Flowcodes (dynamic QR codes) at scale! 🚀
 
 <p align="center">
-  <img width="300px"src="https://i.imgur.com/Dsw0Gml.png"/>
+  <img width="300px"src="flowcode_logo.png"/>
 </p>
 
 The **Flowcode API** is a **RESTful API** that lets you programmatically leverage the Flowcode platform:
@@ -23,37 +23,37 @@ Please visit our 🛠️ [Developer Portal ➜](https://developer.flowcode.com/)
 
 ### Flowcode Image Generation API Endpoints
 
-| API                         | Endpoint URL                                                  | Type | Description                                                                                              |
-| --------------------------- | ------------------------------------------------------------- | ---- | -------------------------------------------------------------------------------------------------------- |
-| Generate static code image  | `https://gateway.flowcode.com/v3/codes/generator/static`    | GET  | Generate a static Flowcode image               |
+| API                         | Endpoint URL                                                  | Type | Description                                                 |
+| --------------------------- | ------------------------------------------------------------- | ---- | ----------------------------------------------------------- |
+| Generate static code image  | `https://gateway.flowcode.com/v3/codes/generator/static`    | GET  | Generate a static Flowcode image                            |
 | Generate dynamic code image | `https://gateway.flowcode.com/v3/codes/generator/{code_id}` | GET  | Generate a dynamic Flowcode image from an existing Flowcode |
 
 ### Flowcode Code Templates API Endpoints
 
-| API                     | Endpoint URL                                       | Type | Description                                                             |
-| ----------------------- | -------------------------------------------------- | ---- | ----------------------------------------------------------------------- |
-| List Flowcode Templates | `https://gateway.flowcode.com/v3/code-templates` &nbsp; &nbsp; | GET  | Returns a list of Flowcode template configurations accessible by this user |
-| Fetch Flowcode Template | `https://gateway.flowcode.com/v3/{template_id}`  | GET  | Returns metadata for a specified Flowcode template                     |
+| API                     | Endpoint URL                                                     | Type | Description                                                                |
+| ----------------------- | ---------------------------------------------------------------- | ---- | -------------------------------------------------------------------------- |
+| List Flowcode Templates | `https://gateway.flowcode.com/v3/code-templates`               | GET  | Returns a list of Flowcode template configurations accessible by this user |
+| Fetch Flowcode Template | `https://gateway.flowcode.com/v3/{template_id}`                | GET  | Returns metadata for a specified Flowcode template                         |
 
 ### Analytics API Endpoints
 
-| API                 | Endpoint URL                                                  | Type | Description                                                                                              |
-| ------------------- | ------------------------------------------------------------- | ---- | -------------------------------------------------------------------------------------------------------- |
-| Get Flowcode Events | `https://gateway.flowcode.com/analytics/v2/events/flowcode` | GET  | Get events for all of your Flowcodes                                                                     |
-| Get Flowpage Events | `https://gateway.flowcode.com/analytics/v2/events/flowpage` | GET  | Get events for all of your Flowpages |
-| Get Contacts (CRM)  | `https://gateway.flowcode.com/analytics/v2/contacts`        | GET  | Get contact info submitted on Flowpages for a specific date range                                       |
+| API                 | Endpoint URL                                                  | Type | Description                                                       |
+| ------------------- | ------------------------------------------------------------- | ---- | ----------------------------------------------------------------- |
+| Get Flowcode Events | `https://gateway.flowcode.com/analytics/v2/events/flowcode` | GET  | Get events for all of your Flowcodes                              |
+| Get Flowpage Events | `https://gateway.flowcode.com/analytics/v2/events/flowpage` | GET  | Get events for all of your Flowpages                              |
+| Get Contacts (CRM)  | `https://gateway.flowcode.com/analytics/v2/contacts`        | GET  | Get contact info submitted on Flowpages for a specific date range |
 
 [**Full List of Analytics API Endpoints ➜**](https://developer.flowcode.com/)
 
 ---
 
-#### 🤝 Get in Touch / Help : `help-api@flowcode.com`
+### 🤝 Get in Touch / Help : `help-api@flowcode.com`
 
-#### 💡 Rate Limiting
+### 💡 Rate Limiting
 
 The Flowcode API sets a limit of 100 API requests per second. Once this limit is reached the API will start returning errors with HTTP status code 429.
 
-#### 💫 More Flowcode Platform Features
+### 💫 More Flowcode Platform Features
 
 * Create, manage, and share innovative artist designed Flowcodes
 * Develop Flowpages for mobile-first online destinations and digital experiences
