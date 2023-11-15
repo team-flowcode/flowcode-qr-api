@@ -25,23 +25,23 @@ Please visit our 🛠️ [Developer Portal ➜](https://developer.flowcode.com/)
 
 | API                         | Endpoint URL                                                  | Type | Description                                                                                              |
 | --------------------------- | ------------------------------------------------------------- | ---- | -------------------------------------------------------------------------------------------------------- |
-| Generate static code image  | `https://gateway.flowcode.com/v3/codes/generator/static`    | GET  | Generate a static Flowcode image that scans to a specific destination, specified by url                  |
-| Generate dynamic code image | `https://gateway.flowcode.com/v3/codes/generator/{code_id}` | GET  | Generate a dynamic Flowcode image that scans to the short_url of an existing code, specified by code_id. |
+| Generate static code image  | `https://gateway.flowcode.com/v3/codes/generator/static`    | GET  | Generate a static Flowcode image               |
+| Generate dynamic code image | `https://gateway.flowcode.com/v3/codes/generator/{code_id}` | GET  | Generate a dynamic Flowcode image from an existing Flowcode |
 
 ### Flowcode Code Templates API Endpoints
 
 | API                     | Endpoint URL                                       | Type | Description                                                             |
 | ----------------------- | -------------------------------------------------- | ---- | ----------------------------------------------------------------------- |
-| List Flowcode Templates | `https://gateway.flowcode.com/v3/code-templates` | GET  | Returns a list of code template configurations accessible by this user. |
-| Fetch Flowcode Template | `https://gateway.flowcode.com/v3/{template_id}`  | GET  | Returns metadata for a specified Flowcode template.                     |
+| List Flowcode Templates | `https://gateway.flowcode.com/v3/code-templates` | GET  | Returns a list of Flowcode template configurations accessible by this user |
+| Fetch Flowcode Template | `https://gateway.flowcode.com/v3/{template_id}`  | GET  | Returns metadata for a specified Flowcode template                     |
 
 ### Analytics API Endpoints
 
 | API                 | Endpoint URL                                                  | Type | Description                                                                                              |
 | ------------------- | ------------------------------------------------------------- | ---- | -------------------------------------------------------------------------------------------------------- |
 | Get Flowcode Events | `https://gateway.flowcode.com/analytics/v2/events/flowcode` | GET  | Get events for all of your Flowcodes                                                                     |
-| Get Flowpage Events | `https://gateway.flowcode.com/analytics/v2/events/flowpage` | GET  | Generate a dynamic Flowcode image that scans to the short_url of an existing code, specified by code_id. |
-| Get Contacts (CRM)  | `https://gateway.flowcode.com/analytics/v2/contacts`        | GET  | Get contact info submitted on flowpages for a specific date range.                                       |
+| Get Flowpage Events | `https://gateway.flowcode.com/analytics/v2/events/flowpage` | GET  | Get events for all of your Flowpages |
+| Get Contacts (CRM)  | `https://gateway.flowcode.com/analytics/v2/contacts`        | GET  | Get contact info submitted on Flowpages for a specific date range                                       |
 
 [**Full List of Analytics API Endpoints ➜**](https://developer.flowcode.com/)
 
