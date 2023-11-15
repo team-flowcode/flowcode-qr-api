@@ -30,10 +30,10 @@ Please visit our 🛠️ [Developer Portal ➜](https://developer.flowcode.com/)
 
 ### Flowcode Code Templates API Endpoints
 
-| API                     | Endpoint URL                                                     | Type | Description                                                                |
-| ----------------------- | ---------------------------------------------------------------- | ---- | -------------------------------------------------------------------------- |
-| List Flowcode Templates | `https://gateway.flowcode.com/v3/code-templates`               | GET  | Returns a list of Flowcode template configurations accessible by this user |
-| Fetch Flowcode Template | `https://gateway.flowcode.com/v3/{template_id}`                | GET  | Returns metadata for a specified Flowcode template                         |
+| API                     | Endpoint URL                                       | Type | Description                                                                |
+| ----------------------- | -------------------------------------------------- | ---- | -------------------------------------------------------------------------- |
+| List Flowcode Templates | `https://gateway.flowcode.com/v3/code-templates` | GET  | Returns a list of Flowcode template configurations accessible by this user |
+| Fetch Flowcode Template | `https://gateway.flowcode.com/v3/{template_id}`  | GET  | Returns metadata for a specified Flowcode template                         |
 
 ### Analytics API Endpoints
 
@@ -47,7 +47,9 @@ Please visit our 🛠️ [Developer Portal ➜](https://developer.flowcode.com/)
 
 ---
 
-### 🤝 Get in Touch / Help : `help-api@flowcode.com`
+### 🤝 Get in Touch / Help:
+
+- `help-api@flowcode.com`
 
 ### 💡 Rate Limiting
 
