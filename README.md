@@ -32,7 +32,7 @@ Please visit our 🛠️ [Developer Portal ➜](https://developer.flowcode.com/)
 
 | API                     | Endpoint URL                                       | Type | Description                                                             |
 | ----------------------- | -------------------------------------------------- | ---- | ----------------------------------------------------------------------- |
-| List Flowcode Templates | `https://gateway.flowcode.com/v3/code-templates` | GET  | Returns a list of Flowcode template configurations accessible by this user |
+| List Flowcode Templates | `https://gateway.flowcode.com/v3/code-templates` &nbsp; &nbsp; | GET  | Returns a list of Flowcode template configurations accessible by this user |
 | Fetch Flowcode Template | `https://gateway.flowcode.com/v3/{template_id}`  | GET  | Returns metadata for a specified Flowcode template                     |
 
 ### Analytics API Endpoints
