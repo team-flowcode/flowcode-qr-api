@@ -82,12 +82,17 @@ Please visit our 🛠️ [Developer Portal ➜](https://developer.flowcode.com/)
 
 The Flowcode API sets a limit of 100 API requests per second. Once this limit is reached the API will start returning errors with HTTP status code 429.
 
-### 💫 More Flowcode Platform Features
+### 💫 Difference between a regular QR code vs. a Flowcode?
 
-* Create, manage, and share innovative artist designed Flowcodes
-* Develop Flowpages for mobile-first online destinations and digital experiences
-* Real-time data and analytics, including advanced Geolocation tracking
-* Enterprise-grade security and features, GDPR and CCPA compliant.
-* Integrations with Zapier, Klaviyo, Hubspot, Mailchimp, and Salesforce
+<p>
+  <img width="350px"src="flowcode_qr_diff.png"/>
+</p>
+
+* Dynamic and can be customized with a variety of designs
+* Get real-time data and analytics, including advanced Geolocation tracking
+* Enterprise-grade security and features, GDPR and CCPA compliant
+* Platform features include management of Flowcodes, innovative artist designed Flowcodes, and mobile-first online destinations
 
 Learn more at [Flowcode.com ➜](https://www.flowcode.com/)
+
+![flowcode_examples](flowcode_examples.png)
