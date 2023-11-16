@@ -15,6 +15,17 @@ The **Flowcode API** is a **RESTful API** that lets you programmatically leverag
 1. Create a free Flowcode account at [Flowcode.com ➜](https://flowcode.com/) and a developer account via the 🛠️ [Developer Portal ➜](https://developer.flowcode.com/)
 2. **Authorization**: generate an `API key` (via the Developer Portal) to use as authorization for the API endpoints.
 
+### Examples
+
+💻 Check out code examples with the API [here](examples)
+
+### Guides
+
+* [Embed a Flowcode Generator in your application ➜](https://developer.flowcode.com/guides/embed-a-flowcode-generator)
+* [Bulk Generate 1:1 Codes ➜](https://developer.flowcode.com/guides/bulk-generate-codes)
+* [Ingest Flowcode and Flowpage data into your ETL pipeline ➜](https://developer.flowcode.com/guides/ingest-analytics-data)
+* [Best Practices for Flowcode Design (via API) ➜](https://developer.flowcode.com/guides/flowcode-api-design-guidelines)
+
 ### API Endpoints
 
 Please visit our 🛠️ [Developer Portal ➜](https://developer.flowcode.com/) for more information about each API endpoint and try our interactive test environment.
