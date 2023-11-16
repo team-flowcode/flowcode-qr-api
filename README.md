@@ -32,7 +32,7 @@ Please visit our 🛠️ [Developer Portal ➜](https://developer.flowcode.com/)
 
 | API                           | Endpoint URL                                                    | Type | Description                                                  |
 | ----------------------------- | --------------------------------------------------------------- | ---- | ------------------------------------------------------------ |
-| Create a Flowcode             | `https://gateway.flowcode.com/v4/codes/bulk`                  | POST | Create codes in bulk using a single request                  |
+| Create Flowcodes in bulk      | `https://gateway.flowcode.com/v4/codes/bulk`                  | POST | Create codes in bulk using a single request                  |
 | Update codes in bulk          | `https://gateway.flowcode.com/v4/codes/bulk`                  | PUT  | Update codes in bulk using a single request                  |
 | Create codes in bulk from CSV | `https://gateway.flowcode.com/v4/codes/bulk/csv`              | POST | Create codes in bulk from CSV (comma-separated values) input |
 | View status of bulk request   | `https://gateway.flowcode.com/v4/codes/bulk/{task_id}/status` | GET  | View the status of an asynchronous bulk request              |
