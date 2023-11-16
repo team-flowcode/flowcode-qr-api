@@ -42,7 +42,7 @@ async function main() {
     }
 
     // New folder name where Flowcodes will be placed
-    const folderName = "My Cool Flowcodes_js2";
+    const folderName = "My Cool Flowcodes";
 
     const flowcodesData = [
         // Add the Flowcodes you wish to create here, as JSON data
