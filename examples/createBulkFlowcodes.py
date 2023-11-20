@@ -9,7 +9,7 @@ import os
 # Function to create many Flowcodes using the Bulk Code Creation API endpoint
 def create_flowcodes(apikey, codes, folder_name):
 
-    # Endpoint URL
+    # Bulk Flowcode endpoint URL
     url = "https://gateway.flowcode.com/v4/codes/bulk"
 
     requestBody = {

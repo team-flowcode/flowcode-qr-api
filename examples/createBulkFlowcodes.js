@@ -5,7 +5,7 @@
 
 // Function to create many Flowcodes using the Bulk Code Creation API endpoint
 async function createFlowcodes(apikey, codes, folderName) {
-    // Endpoint URL
+    // Bulk Flowcode endpoint URL
     const url = "https://gateway.flowcode.com/v4/codes/bulk";
 
     const requestBody = {
