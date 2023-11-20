@@ -17,7 +17,7 @@ The **Flowcode API** is a **RESTful API** that lets you programmatically leverag
 
 ### Examples
 
-💻 Check out code examples with the API [here](examples)
+💻 Check out code examples with the API [here](code-examples)
 
 ### Guides
 
