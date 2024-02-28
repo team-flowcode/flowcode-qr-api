@@ -1,4 +1,4 @@
-## Dynamic QR codes generator - Create and manage Flowcodes at scale! 🚀
+## Dynamic QR code generator - Create and manage Flowcodes at scale! 🚀
 
 <p align="center">
   <img width="300px"src="flowcode_logo.png"/>
